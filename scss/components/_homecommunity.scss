@@ -1,0 +1,23 @@
+.homecommunity {
+  clip-path: polygon(0 0, 100% 5%, 100% 100%, 0 95%);
+  background-image: url(../media/img/background-image-02.png);
+  background-repeat: no-repeat;
+  background-position: 2px -16px;
+  .content-image_container {
+    .content-image {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .homecommunity {
+    .content-image_container {
+      .content-image {
+        flex-wrap: wrap;
+      }
+    }
+  }
+}
